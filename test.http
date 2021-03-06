@@ -1,0 +1,29 @@
+### GET STUDENT
+GET http://localhost:9090/
+Accept: application/json
+
+### CREATE STUDENT
+POST http://localhost:9090/
+Content-Type: application/json
+
+{
+  "name": "ayatullah"
+}
+
+### GET STUDENT WITH ID
+GET http://localhost:9090/2
+Accept: application/json
+
+### DELETE STUDENT WITH ID
+DELETE http://localhost:9090/3
+Accept: application/json
+
+
+### DELETE STUDENT WITH ID
+PUT http://localhost:9090/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Sammi Aldhi Yanto"
+}
